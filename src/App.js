@@ -236,12 +236,10 @@ export default function App() {
     <div className="App">
       <h1 className="heading">
         <p>CODE HUB</p>
-        <span role="img" aria-label="forest">
-          🌴
-        </span>
-        Jungle Book
+        <span role="img" aria-label="forest"></span>
+        Into the Wild
       </h1>
-      <h2>Enter an animal emoji or select one from below </h2>
+      <h2>Enter an animal emoji or click one from below </h2>
       <input className="input" onChange={getInputHandler}></input>
       <h2 className="meaning">{meaning}</h2>
 
